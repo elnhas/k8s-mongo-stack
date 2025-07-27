@@ -27,7 +27,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mongodb-secret
-              key: mongodb-root-pasword
+              key: mongodb-root-password
         volumeMounts:
         - name: mongodb-storage
           mountPath: /data/db
